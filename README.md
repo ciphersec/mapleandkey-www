@@ -6,14 +6,21 @@ The actual portal app lives at `app.mapleandkey.com` (see `~/Projects/tenants-po
 
 ## Brand
 
+Visual aesthetic matches `manohomes.ca` — warm, organic, paper-cream:
+
 | | |
 |---|---|
-| Primary | Royal Blue `#003DA5` |
-| Accent | Maple Red `#DC1C2E` |
-| Text | `#1b1815` near-black, `#7a7a7a` muted |
-| Wordmark | "Maple & Key" set in Georgia, blue/amp/red |
+| Background | Paper cream `#faf7f0` / cream `#f6f1e7` |
+| Accent | Maple brick-red `#a23a2a` (warm, NOT bright red) |
+| Highlight | Gold `#b08a3e` (used on dark sections + cta cards) |
+| Text | Warm ink `#1d1916`, soft `#4a423b`, muted `#8a7e72` |
+| Dark band | `#1b1815` (pricing section) · `#14110f` (footer) |
+| Borders | `#e3dcce` |
+| Wordmark | "Maple & Key" in Playfair Display 600, ink-color, italic maple ampersand |
+| Headings | Playfair Display |
+| Body | Inter |
 
-**Brand-history note:** the palette is inherited from the original Maple & Key real-estate-sales-rep brand (which used RE/MAX co-branding on the business cards). For this SaaS site the colors stay but **all RE/MAX co-branding has been dropped** — Maple & Key here is a pure property-management software brand, no RE/MAX affiliation.
+**Brand-history note:** earlier draft used royal blue + bright red (RE/MAX-coded). Repalette'd 2026-05-30 to match `manohomes.ca` aesthetic — warm cream backdrop, brick-maple accents, no RE/MAX color overlap.
 
 ## Stack
 
