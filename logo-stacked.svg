@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 320" width="360" height="320" role="img" aria-label="Maple &amp; Key">
+  <title>Maple &amp; Key — stacked</title>
+
+  <!-- ===========================================================
+       Maple leaf icon — symmetric, 5-lobe, leaf-shaped (not starry)
+       Geometry: tips at radius 90, notches at radius ~55 (deeper
+       than 60% so lobes have presence, shallower than 50% so it
+       doesn't look like a snowflake). The lower-side lobes extend
+       furthest horizontally — matches a real sugar maple leaf.
+       =========================================================== -->
+  <g transform="translate(180 110)">
+    <path d="
+      M 0 -90
+      L 25 -49
+      L 74 -52
+      L 54 -10
+      L 87 23
+      L 32 38
+      L 0 80
+      L -32 38
+      L -87 23
+      L -54 -10
+      L -74 -52
+      L -25 -49
+      Z
+    " fill="#a23a2a" stroke="#a23a2a" stroke-width="2" stroke-linejoin="round"/>
+
+    <!-- Stem (cleanly attached to bottom of leaf body) -->
+    <rect x="-2.5" y="78" width="5" height="38" rx="2.5" fill="#a23a2a"/>
+  </g>
+
+  <!-- ===========================================================
+       Wordmark — "MAPLE & KEY" centered, sized to fit comfortably
+       =========================================================== -->
+  <text x="180" y="258" text-anchor="middle"
+        font-family="'Playfair Display', Georgia, 'Times New Roman', serif"
+        font-size="36" font-weight="500" fill="#1d1916" letter-spacing="4">MAPLE &amp; KEY</text>
+
+  <!-- ===========================================================
+       Tagline — fits inside the 360-wide viewBox with margin
+       =========================================================== -->
+  <text x="180" y="288" text-anchor="middle"
+        font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+        font-size="11" fill="#8a7e72" letter-spacing="2.5" font-weight="500">PROPERTY · PORTAL · PEACE OF MIND</text>
+</svg>

@@ -38,8 +38,13 @@ a:hover { color: var(--maple-d); }
 .wordmark {
   font-family: var(--serif); font-weight: 600; font-size: 1.4rem;
   letter-spacing: -0.01em; color: var(--ink); line-height: 1;
-  display: inline-flex; align-items: baseline;
+  display: inline-flex; align-items: center; gap: 0.55rem;
 }
+.wm-icon {
+  width: 1.5em; height: 1.5em; flex-shrink: 0;
+  color: var(--maple); /* header default — leaf in maple-red */
+}
+.site-footer .wm-icon { color: var(--gold); } /* footer accent (matches the & ) */
 .wordmark, .wordmark:hover { text-decoration: none; color: var(--ink); }
 .wm-blue, .wm-red { color: var(--ink); }
 .wm-amp { color: var(--maple); font-style: italic; margin: 0 0.2rem; font-weight: 400; }

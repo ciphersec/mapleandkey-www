@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 130" width="520" height="130" role="img" aria-label="Maple &amp; Key wordmark">
+  <title>Maple &amp; Key</title>
+
+  <!-- "Maple" in Playfair Display serif (with Georgia fallback for systems without Playfair) -->
+  <text x="20" y="92" font-family="'Playfair Display', Georgia, 'Times New Roman', serif"
+        font-size="80" font-weight="500" fill="#1d1916" letter-spacing="-1">Maple</text>
+
+  <!-- Mini maple leaf as the ampersand. Sits between Maple and Key, scaled small. -->
+  <g transform="translate(238 50) scale(0.36)">
+    <path d="
+      M 0 -55
+      L 8 -28  L 30 -36  L 22 -10
+      L 52 -10  L 36 8   L 60 22
+      L 30 24  L 38 50
+      L 14 30  L 10 60
+      L 0 42
+      L -10 60  L -14 30
+      L -38 50  L -30 24
+      L -60 22  L -36 8   L -52 -10
+      L -22 -10 L -30 -36  L -8 -28
+      Z" fill="#a23a2a" stroke-linejoin="round"/>
+    <rect x="-2" y="42" width="4" height="30" rx="2" fill="#a23a2a"/>
+  </g>
+
+  <!-- "Key" -->
+  <text x="290" y="92" font-family="'Playfair Display', Georgia, 'Times New Roman', serif"
+        font-size="80" font-weight="500" fill="#1d1916" letter-spacing="-1">Key</text>
+</svg>
