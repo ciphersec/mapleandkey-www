@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Maple &amp; Key">
+  <!-- Maple leaf in maple-red on transparent background — for emails. -->
+  <g transform="translate(32 28)">
+    <path d="M 0 -18 L 5 -10 L 15 -10 L 11 -2 L 19 4 L 6 7 L 0 15 L -6 7 L -19 4 L -11 -2 L -15 -10 L -5 -10 Z"
+          fill="#a23a2a"/>
+    <rect x="-1.2" y="14" width="2.4" height="12" rx="1.2" fill="#a23a2a"/>
+  </g>
+</svg>
