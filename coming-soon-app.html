@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Maple &amp; Key — App launching soon</title>
+<meta name="description" content="The Maple & Key portal is under construction. Email hello@mapleandkey.com for early access.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%231d1916'/%3E%3Ctext x='16' y='22' text-anchor='middle' fill='%23faf7f0' font-family='Georgia,serif' font-size='15' font-weight='600'%3EM%26K%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --paper:#faf7f0; --cream:#f6f1e7; --ink:#1d1916; --ink-soft:#4a423b;
+    --muted:#8a7e72; --line:#e3dcce; --maple:#a23a2a; --maple-d:#7a2a1f; --gold:#b08a3e;
+    --serif:"Playfair Display",Georgia,"Times New Roman",serif;
+    --sans:"Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  }
+  *, *::before, *::after { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    min-height: 100vh;
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    padding: 2rem 1.6rem;
+    font: 17px/1.65 var(--sans);
+    color: var(--ink); background: var(--paper);
+    -webkit-font-smoothing: antialiased;
+  }
+  .container { max-width: 540px; text-align: center; }
+  .wordmark {
+    font-family: var(--serif); font-size: 1.5rem; font-weight: 600;
+    color: var(--ink); margin: 0 0 2.5rem; letter-spacing: -0.01em;
+  }
+  .wm-amp { color: var(--maple); font-style: italic; margin: 0 0.2rem; font-weight: 400; }
+  .kicker {
+    text-transform: uppercase; letter-spacing: 0.18em; font-size: 0.75rem;
+    font-weight: 600; color: var(--maple); margin: 0 0 1rem;
+  }
+  h1 {
+    font-family: var(--serif); font-size: clamp(2rem, 5vw, 2.8rem); font-weight: 600;
+    line-height: 1.15; letter-spacing: -0.015em; color: var(--ink); margin: 0 0 1rem;
+  }
+  .lede { color: var(--ink-soft); font-size: 1.05rem; margin: 0 0 2rem; }
+  .btn {
+    display: inline-flex; align-items: center;
+    padding: 0.85rem 1.5rem; border-radius: 999px;
+    background: var(--ink); color: var(--paper);
+    font-weight: 600; font-size: 0.95rem; text-decoration: none;
+    transition: background .15s ease;
+  }
+  .btn:hover { background: var(--maple); }
+  .back { margin-top: 2rem; color: var(--muted); font-size: 0.9rem; }
+  .back a { color: var(--maple); text-decoration: none; }
+  .back a:hover { text-decoration: underline; }
+</style>
+</head>
+<body>
+<div class="container">
+  <p class="wordmark"><span>Maple</span><span class="wm-amp">&amp;</span><span>Key</span></p>
+  <p class="kicker">App · early access opening soon</p>
+  <h1>The portal is under construction.</h1>
+  <p class="lede">We're polishing the landlord Kanban, the tenant photo-upload flow, and the audit-trail export. If you'd like in on the first 50-landlord pilot, drop us a line.</p>
+  <a href="mailto:hello@mapleandkey.com?subject=Maple%20%26%20Key%20early%20access" class="btn">Join the early-access list</a>
+  <p class="back">Back to <a href="https://mapleandkey.com">mapleandkey.com</a></p>
+</div>
+</body>
+</html>
